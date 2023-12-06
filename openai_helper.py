@@ -3,7 +3,7 @@ from secret_key import openai_key
 from openai import OpenAI
 import pandas as pd
 
-client = OpenAI(api_key=openai_key)
+client = OpenAI(api_key= )
 from PyPDF2 import PdfReader
 from docx import Document
 from PIL import Image
