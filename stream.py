@@ -2,10 +2,6 @@ import streamlit as st
 import pandas as pd
 import openai_helper
 
-headers = {
-    "authorization": st.secrets["key"]
-}
-
 resume_data = pd.DataFrame({
     "Entities": ["Name", "email_id", "mob_number", "qualification", "experience", "skills", "certification",
                 "achievement"],

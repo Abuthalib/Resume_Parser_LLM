@@ -1,10 +1,9 @@
 import json
-#from secret_key import openai_key
+from secret_key import openai_key
 from openai import OpenAI
 import pandas as pd
-import stream
 
-client = OpenAI(api_key=stream.headers)
+client = OpenAI(api_key=openai_key)
 from PyPDF2 import PdfReader
 from docx import Document
 from PIL import Image
