@@ -3,7 +3,7 @@ import pandas as pd
 import openai_helper
 
 headers = {
-    "authorization": st.secrets["api_key"]
+    "authorization": st.secrets["key"]
 }
 
 resume_data = pd.DataFrame({
