@@ -8,7 +8,7 @@ headers = {
 
 resume_data = pd.DataFrame({
     "Entities": ["Name", "email_id", "mob_number", "qualification", "experience", "skills", "certification",
-                 "achievement"],
+                "achievement"],
     "value": ["", "", "", "", "", "", "", ""]
 })
 
